@@ -24,10 +24,10 @@ for line in gene:
 		if char == "t":
 			t+=1
 
-print("number of g's" + str(g))
-print("number of g's" + str(c))
-print("number of g's" + str(a))
-print("number of g's" + str(t))
+print("number of g's :" + str(g))
+print("number of c's : " + str(c))
+print("number of a's : " + str(a))
+print("number of t's : " + str(t))
 
 gc = (g+c+0.) / (a+t+c+g+0.)
 
